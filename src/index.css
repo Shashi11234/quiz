@@ -1,13 +1,242 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 85%;
+}
+body{
+  background-color:indigo;
+  width:100vw;
+    height:100vh;
+ 
+
+}
+#root{
+  width:100%;
+  height:100%;
+  background-color:white;
+  border: 3px solid green;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.entry{
+  background-image: url(https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg);
+  background-size:cover;
+  width:100%;
+  height:100%;
+  /* margin-left:13%;
+  margin-top:2%; */
+  outline: 10px inset indigo;
+  border-radius: 30px 30px 30px 30px;
+  overflow:hidden;
+  font-size:15px;
+  box-shadow: 10px 10px 10px 10px white;
 }
+
+.intro{
+  background-image: url(https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg);
+  background-size:cover;
+  width:100%;
+  height:100%;
+  margin-top:0px;
+  text-align: center;
+  outline: 10px inset indigo;
+  border-radius: 30px 30px 30px 30px;
+}
+h1{
+  font-size:2.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  padding-top:2%;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h2{
+  font-size: 2.5rem;
+  margin-top:8%;
+      color:white;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h3{
+  font-size: 2.5rem;
+  margin-top:12%;
+  color:white;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+button{
+  font-size: 2rem;
+  color:white;
+  background-color:indigo;
+  margin-top:5%;
+  width:15%;
+  height:10%;
+  margin-left:0%;
+  cursor:pointer;
+  /* outline: 2px groove white; */
+  border-radius: 50px;
+  border:none;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h4{
+  color:white;
+  margin-left:2%;
+  font-size:3.5rem;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+  
+}
+h5{
+  color:white;
+  margin-left:2%;
+  font-size: 2rem;
+  margin-top: 50px;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+label{
+  color:antiquewhite;
+  font-size: 1.5rem;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+input{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+input[type="radio"]{
+  color:black;
+  height:20px;
+  width:20px;
+  background-color:white;
+  line-height: 100px;
+
+}
+button:hover{
+  background-color: aliceblue;
+  color:black;
+}
+hr{
+  background-color: aliceblue;
+  height:2%;
+  width:15%;
+  margin-left:20px;
+}
+h6{
+  font-size: 50px;
+  color:aliceblue;
+  margin-left:260px;
+  padding-top:100px;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+  
+}
+
+#xx{
+  color:white;
+  font-size: 3rem;
+  padding-left:27%;
+  padding-top:12%;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+  
+}
+#btn5{
+  margin-top:5%;
+  width:23vmin;
+  height:8vmin;
+  font-size: 2rem;
+  margin-left:36%;
+}
+.result{
+  margin-top: 5%;
+  margin-left:5%;
+}
+#btn1{
+  width:16%;
+  height:10vmin;
+  margin-top:3%;
+  margin-left:35%;
+  font-size: 2em;
+}
+#btn2{
+  width:16%;
+  height:10vmin;
+  margin-top:1%;
+  margin-left:10%;
+  font-size: 2em;
+}
+@media (max-width:360px) {
+ h1{
+  font-size: 2rem;
+  padding-top: 10%;
+ }
+ h2,h3{
+  font-size: 2rem;
+  margin-top:20%;
+ }
+ button{
+  font-size: 1.5rem;
+  width:30%;
+ }
+ h4{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2%;
+ }
+ hr{
+  width:100%;
+  margin-left: 0px;
+  height:2px;
+ }
+ h5{
+  font-size: 2rem;
+  margin-top: 10%;
+ }
+ label{
+  font-size: 1.5rem;
+ }
+ input[type="radio"]{
+  line-height: 20%;
+  margin-top: 10%;
+ }
+ #btn1{
+  font-size: 2rem;
+  margin-top: 20%;
+  width:30%;
+  margin-left: 20%;
+ }
+ #btn2{
+  font-size: 2rem;
+  width:30%
+ }
+ #btn5{
+  font-size: 2rem;
+  margin-top: 60%;
+  margin-left:30%;
+  width: 32%;
+  height:15vmin;
+  
+ }
+ #xx{
+  font-size: 2.5rem;
+  margin-left: -15%;
+  margin-top: 60%;
+ }
+
+
+}
+
+
